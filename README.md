@@ -1,7 +1,7 @@
-Autor: Soare Ion-Alexandru
-Universitatea si Facultatea: UPB, ACS, CTI
-Grupa si Seria: 333 CC
-Tema a II-a: The miners and the sleepy wizards
+	Autor: Soare Ion-Alexandru
+	Universitatea si Facultatea: UPB, ACS, CTI
+	Grupa si Seria: 333 CC
+	Tema a II-a: The miners and the sleepy wizards
 
 Tema are la baza cele 2 structuri de tinere a mesajelor din CommunicationChannel, un ConcurrentHashMap pentru mesajele vrajitorilor,
 respectiv un ArrayBlockingQueue pentru cele ale minerilor. Alegerea s-a facut in acest sens deoarece minerii transmit mesaje independente,

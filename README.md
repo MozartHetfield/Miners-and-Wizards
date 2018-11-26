@@ -3,7 +3,7 @@ Universitatea si Facultatea: UPB, ACS, CTI
 Grupa si Seria: 333 CC
 Tema a II-a: The miners and the sleepy wizards
 
-	Tema are la baza cele 2 structuri de tinere a mesajelor din CommunicationChannel, un ConcurrentHashMap pentru mesajele vrajitorilor,
+Tema are la baza cele 2 structuri de tinere a mesajelor din CommunicationChannel, un ConcurrentHashMap pentru mesajele vrajitorilor,
 respectiv un ArrayBlockingQueue pentru cele ale minerilor. Alegerea s-a facut in acest sens deoarece minerii transmit mesaje independente,
 in timp ce vrajitorii trebuie sa-si mentina propria ordine, pentru a nu induce in eroare minerii. Asadar, ConcurrentHashMap-ul va avea
 cate un ArrayBlockingQueue<Message> pentru fiecare vrajitor care isi asuma un thread (thread perceput ca o variabila de tip long, cu ajutorul
